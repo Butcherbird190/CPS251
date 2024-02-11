@@ -2,4 +2,10 @@
     <string name="app_name">TipCalculator</string>
     <string name="values_are_as_follows">values are as follows</string>
     <string name="you_must_enter_a_bill_amount">You must enter a bill amount</string>
+    <string name="_15">15%=</string>
+    <string name="values_will_be_printed_below">Values will be printed below</string>
+    <string name="calculate_tip">Calculate Tip</string>
+    <string name="enter_bill_amount">Enter Bill Amount</string>
+    <string name="_10">10%=</string>
+    <string name="_20">20%=</string>
 </resources>
