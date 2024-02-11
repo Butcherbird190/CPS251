@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TipCalculator</string>
+    <string name="values_are_as_follows">values are as follows</string>
+    <string name="you_must_enter_a_bill_amount">You must enter a bill amount</string>
+</resources>
