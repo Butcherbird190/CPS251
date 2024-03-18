@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/mainfragment">
+    <fragment
+        android:id="@+id/mainfragment"
+        android:name="com.example.navigationproject.Mainfragment"
+        android:label="mainfragment"
+        tools:layout="@layout/mainfragment" >
+        <action
+            android:id="@+id/mainToSecond"
+            app:destination="@id/secondfragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/secondfragment"
+        android:name="com.example.navigationproject.Secondfragment"
+        android:label="secondfragment"
+        tools:layout="@layout/secondfragment" >
+    <argument
+        android:name="label"
+        app:argType="string"
+        android:defaultValue="No Label" />
+        <argument android:name="imageArg"
+            android:defaultValue="@drawable/android_image_1" />
+    </fragment>
+
+</navigation>
